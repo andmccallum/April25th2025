@@ -1,0 +1,28 @@
+M0pi0 Advanced Operators for Magnetic Confinement
+=============================================
+
+Quantum_Classical_Bridge:
+Symbol: Ω̂
+Equation: Ω̂(ψ,B) = ∫ψ*Ĥ(B)ψdV + ∫(j×B)·vdV
+Description: Couples quantum and classical plasma dynamics
+
+Topological_Field:
+Symbol: T̂
+Equation: T̂(B) = ∫∫∫[α|∇×B|² + β|∇·B|² + γ(∇×B·B)]dV
+Description: Optimizes magnetic field topology
+
+Stability_Control:
+Symbol: Ŝ
+Equation: Ŝ(B,p) = -∇p + j×B + ρ(v·∇)v
+Description: Monitors and controls plasma stability
+
+Turbulence:
+Symbol: T̂ᵤᵣᵦ
+Equation: T̂ᵤᵣᵦ = ∂/∂t + v·∇ - ν∇² + ∇p/ρ
+Description: Models multi-scale turbulence
+
+Scale_Bridge:
+Symbol: B̂
+Equation: B̂(ψ,v) = ∑ᵢwᵢ(x,t)Ôᵢ(ψ,v)
+Description: Integrates across multiple scales
+

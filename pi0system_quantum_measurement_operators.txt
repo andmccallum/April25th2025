@@ -1,0 +1,28 @@
+Pi0System Quantum Measurement Operators
+====================================
+
+Quantum_State_Evolution:
+Symbol: Û
+Equation: Û(t) = exp(-iĤt/ℏ)
+Description: Evolves quantum states in magnetic field
+
+Entanglement_Generator:
+Symbol: Ê
+Equation: |Ψₑ⟩ = Ê|Ψ₁⟩|Ψ₂⟩ = (1/√2)(|0₁1₂⟩ + |1₁0₂⟩)
+Description: Generates entangled states for measurement
+
+Phase_Evolution:
+Symbol: Φ̂
+Equation: Φ̂(B) = exp(iγ∮A·dl + i∫B·dS)
+Description: Tracks phase evolution in magnetic field
+
+Measurement_Projection:
+Symbol: P̂
+Equation: P̂(B) = ∑ᵢ λᵢ|ϕᵢ(B)⟩⟨ϕᵢ(B)|
+Description: Projects quantum states for measurement
+
+Error_Correction:
+Symbol: Ê
+Equation: E(ρ) = ∑ᵢ EᵢρEᵢ†
+Description: Corrects quantum measurement errors
+
